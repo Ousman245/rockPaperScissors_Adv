@@ -8,13 +8,44 @@
 }
 .token { 
     width: 32%; 
-    border: 1px solid blue; 
+    border: 1px dashed green; 
     margin-left: 1px;
-    float:left;
     text-align: center;
     padding: 50px 0px 50px 0px;
     font-size: x-large;
 }
 #message {
     text-align: center;
+}
+#rock { 
+    background-image: url(http://www.thenervousbreakdown.com/wp-content/uploads/2012/04/Rocks.jpg);
+     background-size: 100px 60px;
+     width: 350px;
+     
+}
+#paper{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/c4/Coloured,_textured_craft_card.jpg);
+     background-size: 100px 60px;
+     width: 350px;
+     margin-right: auto;
+     margin-left: auto;
+}
+#scissors{
+    background-image: url(http://www.gerbergear.com/var/gerber/storage/images/frontpage/outdoor/gear/fishing-scissors_42722/338634-1-eng-US/Small-Fishing-Line-Scissors_fulljpg.jpg);
+     background-size: 100px 60px;
+     width: 350px;
+     margin-left: 500px;
+}
+body{
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    color: white; 
+    font-size:200%;
+    background-image: url(http://wallensteyn.com/wp-content/uploads/2015/09/galaxy_wallpaper_33w.jpg);
+}
+#message{
+    color: Black;
+}
+#spiderman{
+    margin-left: 1400px;
 }
